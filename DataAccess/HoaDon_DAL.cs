@@ -4,10 +4,10 @@ using System.Collections;
 using System.Collections.Generic;
 using System.IO;
 using System.Text;
-
+using QuanLyCuaHangPhuKienDT.DataAccess.Interface;
 namespace QuanLyCuaHangPhuKienDT.DataAccess
 {
-    class HoaDon_DAL
+    class HoaDon_DAL :IHoaDon
     {
         static string filepath = "HoaDon.txt";
         public void DocFile(ArrayList arrayList)

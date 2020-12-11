@@ -1,4 +1,5 @@
-﻿using QuanLyCuaHangPhuKienDT.Entities;
+﻿using QuanLyCuaHangPhuKienDT.BusinessLayer.Interface;
+using QuanLyCuaHangPhuKienDT.Entities;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -6,7 +7,7 @@ using System.Text;
 
 namespace QuanLyCuaHangPhuKienDT.BusinessLayer
 {
-    class HoaDon_BLL
+    class HoaDon_BLL : IHoaDon
     {
 
         public HoaDon find(ArrayList arrayList)

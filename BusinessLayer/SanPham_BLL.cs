@@ -3,10 +3,10 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Text;
-
+using QuanLyCuaHangPhuKienDT.BusinessLayer.Interface;
 namespace QuanLyCuaHangPhuKienDT.BusinessLayer
 {
-    class SanPham_BLL
+    class SanPham_BLL :ISanPham
     {
 
         public SanPham find(ArrayList arrayList)

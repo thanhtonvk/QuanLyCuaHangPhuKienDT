@@ -3,10 +3,10 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Text;
-
+using QuanLyCuaHangPhuKienDT.BusinessLayer.Interface;
 namespace QuanLyCuaHangPhuKienDT.BusinessLayer
 {
-    class TheLoai_BLL
+    class TheLoai_BLL : ITheLoai
     {
 
         public TheLoai find(ArrayList arrayList)

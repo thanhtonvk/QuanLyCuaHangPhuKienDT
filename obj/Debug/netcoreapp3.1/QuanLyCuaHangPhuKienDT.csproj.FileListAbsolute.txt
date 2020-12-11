@@ -11,3 +11,4 @@ C:\Users\thanh\source\repos\QuanLyCuaHangPhuKienDT\obj\Debug\netcoreapp3.1\QuanL
 C:\Users\thanh\source\repos\QuanLyCuaHangPhuKienDT\obj\Debug\netcoreapp3.1\QuanLyCuaHangPhuKienDT.dll
 C:\Users\thanh\source\repos\QuanLyCuaHangPhuKienDT\obj\Debug\netcoreapp3.1\QuanLyCuaHangPhuKienDT.pdb
 C:\Users\thanh\source\repos\QuanLyCuaHangPhuKienDT\obj\Debug\netcoreapp3.1\QuanLyCuaHangPhuKienDT.genruntimeconfig.cache
+C:\Users\thanh\source\repos\QuanLyCuaHangPhuKienDT\bin\Debug\netcoreapp3.1\QuanLyCuaHangPhuKienDT.dll.config

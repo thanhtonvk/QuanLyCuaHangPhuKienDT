@@ -4,10 +4,10 @@ using System.Collections;
 using System.Collections.Generic;
 using System.IO;
 using System.Text;
-
+using QuanLyCuaHangPhuKienDT.DataAccess.Interface;
 namespace QuanLyCuaHangPhuKienDT.DataAccess
 {
-    class TheLoai_DAL
+    class TheLoai_DAL : ITheLoai
     {
         static string filepath = "TheLoai.txt";
         public void DocFile(ArrayList arrayList)

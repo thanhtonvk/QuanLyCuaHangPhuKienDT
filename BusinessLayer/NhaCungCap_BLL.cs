@@ -3,10 +3,10 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Text;
-
+using QuanLyCuaHangPhuKienDT.BusinessLayer.Interface;
 namespace QuanLyCuaHangPhuKienDT.BusinessLayer
 {
-    class NhaCungCap_BLL
+    class NhaCungCap_BLL : INhaCungCap
     {
 
         public NhaCungCap find(ArrayList arrayList)

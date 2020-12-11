@@ -5,4 +5,27 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Content Include="bin\Debug\Data\SanPham.txt" />
+    <Content Include="bin\Debug\netcoreapp3.1\dangnhap.txt" />
+    <Content Include="bin\Debug\netcoreapp3.1\QuanLyCuaHangPhuKienDT.deps.json" />
+    <Content Include="bin\Debug\netcoreapp3.1\QuanLyCuaHangPhuKienDT.runtimeconfig.dev.json" />
+    <Content Include="bin\Debug\netcoreapp3.1\QuanLyCuaHangPhuKienDT.runtimeconfig.json" />
+    <Content Include="bin\Debug\netcoreapp3.1\SanPham.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\netcoreapp3.1\QuanLyCuaHangPhuKienDT.dll" />
+    <None Include="bin\Debug\netcoreapp3.1\QuanLyCuaHangPhuKienDT.exe" />
+    <None Include="bin\Debug\netcoreapp3.1\QuanLyCuaHangPhuKienDT.pdb" />
+    <None Include="bin\Debug\VDHoaDon.exe" />
+    <None Include="bin\Debug\VDHoaDon.exe.config" />
+    <None Include="bin\Debug\VDHoaDon.pdb" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="bin\Release\" />
+    <Folder Include="Utility\" />
+  </ItemGroup>
+
 </Project>

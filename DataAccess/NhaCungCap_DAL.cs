@@ -4,10 +4,10 @@ using System.Collections;
 using System.Collections.Generic;
 using System.IO;
 using System.Text;
-
+using QuanLyCuaHangPhuKienDT.DataAccess.Interface;
 namespace QuanLyCuaHangPhuKienDT.DataAccess
 {
-    class NhaCungCap_DAL
+    class NhaCungCap_DAL : INhaCungCap
     {
         static string filepath = "NhaCungCap.txt";
         public void DocFile(ArrayList arrayList)
